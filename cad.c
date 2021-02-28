@@ -1,77 +1,59 @@
-/*programa: cad.c
-Lê arquivo CVS baixado do transparência. gov com dados de servidores públicos 
-*/
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
-/*#include "cadastro.h"*/
 
-#define MAXLIN 1000 
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+#include<ctype.h>
+#include "cadastro.h"
 
-void extrai (char *lin, int elem, char *d); // protótipo da função por declaração implicitas
-
-int main()
-{
-	FILE *fp;
+int main(){
+	char nome[MAXSTR];
 	
-	char linha[MAXLIN]; 
-	char dado[MAXLIN];	
-
+	printf("\nEntre com o nome: ");
 	
-	fp = open("cadastro2019.cvs", "r");//abre arquivo para leitura (r)
-
-	if (pf == NULL){
-		printf("\nErro de abertura de arquivo");
-		return -1;
-		}
-	
-	//fget(linha, MAXLIN, fp); // fget= ler linha a linha
-
-
-	while(fgets( linha, MAXLIN, fp){
-		extrai(linha, 1, dado);
-		if(! strcmp(dado, "PAULO BANDEIRA PAIVA")){
-			extrai(linha, 4, d2);
-			extrai(linha, 16, d3);
-			printf("\n%s\n%s\n%s\n", dado, d2, d3);
-			return 0; 
-		}
-
-		//*extrai(linha, 4, d2);
-		extrai(linha, 16, d3)
-		printf("\n%s %s %s", dado, d2, d3);
-		extrai(linha, 4, d2);
-		printf("\n %s", d2);
-		extrai(linha, 16, d3);
-		printf("\n %s", d3);*/
-			}
-
-
-void extrai (char *lin, int elem, char *d){
-	
-	char linha[MAXLIN], *p, *q;
-	int i = 0; //contador de ';' para saber qual ponto estou
-
-	strcpy(linha, lin); 
-	p = linha;
-
-	while(*p !='\0'){
-		if (elem == i){
-			if (*p == '"') p++;
-				q = p;
-				while(*q != '"') q++;
-				*q = '\0'; 
-				strcpy(d, p);
-				return;
-			}
-
-		if (*p == ';'){
-			i++;
-			}
-		p++; // passa para a proxima letra
-
-		}
+	fgets(nome, MAXSTR, stdin);
+	busca(nome);
 	}
+
+int busca(char *nome){
+	FILE *dados, *indice;
+	IndiceCadastro registro;
+	char  nomebusca[MAXSTR], *p;
+
+	IndiceCadastro encontrados[100];
+
+	int conta = 0;
+	
+	p = nomebusca;
+	strcpy(nomebusca, nome);
+	while (*p != '\0') {
+		*p = toupper(*p);
+		p++;
+		}
+
+
+
+	indice = fopen(INDICE, "r");
+
+	while(1){ //looping infinita
+
+		fread(&registro, sizeof(registro), 1, indice);
+		if (feof(indice))break;
+		
+		if (strstr (registro.nome, nomebusca)){
+
+			strcpy(encontrados[conta].nome, registro.nome); //Copio o nome 
+			encontrados[conta].localiza = registro.localiza;
+			conta++;
+
+			//printf("\n%d registro(s) encontrado(s)!!\nNome: %s - %ul\n", registro.nome, registro.localiza);
+			}
+		}
+	printf("\n%d registro(s) encontrado(s)!!\n", conta);
+	
+	for (int i = 0; i < conta; i++)
+		printf("Nome: %s", encontrados[i].nome);	
+	
+	return conta;
 }
