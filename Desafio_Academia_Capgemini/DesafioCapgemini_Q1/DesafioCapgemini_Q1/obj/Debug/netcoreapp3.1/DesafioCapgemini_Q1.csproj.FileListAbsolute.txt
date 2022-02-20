@@ -1,0 +1,14 @@
+C:\Users\Aparecida Joana\source\repos\DesafioCapgemini_Q1\DesafioCapgemini_Q1\bin\Debug\netcoreapp3.1\DesafioCapgemini_Q1.exe
+C:\Users\Aparecida Joana\source\repos\DesafioCapgemini_Q1\DesafioCapgemini_Q1\bin\Debug\netcoreapp3.1\DesafioCapgemini_Q1.deps.json
+C:\Users\Aparecida Joana\source\repos\DesafioCapgemini_Q1\DesafioCapgemini_Q1\bin\Debug\netcoreapp3.1\DesafioCapgemini_Q1.runtimeconfig.json
+C:\Users\Aparecida Joana\source\repos\DesafioCapgemini_Q1\DesafioCapgemini_Q1\bin\Debug\netcoreapp3.1\DesafioCapgemini_Q1.runtimeconfig.dev.json
+C:\Users\Aparecida Joana\source\repos\DesafioCapgemini_Q1\DesafioCapgemini_Q1\bin\Debug\netcoreapp3.1\DesafioCapgemini_Q1.dll
+C:\Users\Aparecida Joana\source\repos\DesafioCapgemini_Q1\DesafioCapgemini_Q1\bin\Debug\netcoreapp3.1\DesafioCapgemini_Q1.pdb
+C:\Users\Aparecida Joana\source\repos\DesafioCapgemini_Q1\DesafioCapgemini_Q1\obj\Debug\netcoreapp3.1\DesafioCapgemini_Q1.csproj.AssemblyReference.cache
+C:\Users\Aparecida Joana\source\repos\DesafioCapgemini_Q1\DesafioCapgemini_Q1\obj\Debug\netcoreapp3.1\DesafioCapgemini_Q1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aparecida Joana\source\repos\DesafioCapgemini_Q1\DesafioCapgemini_Q1\obj\Debug\netcoreapp3.1\DesafioCapgemini_Q1.AssemblyInfoInputs.cache
+C:\Users\Aparecida Joana\source\repos\DesafioCapgemini_Q1\DesafioCapgemini_Q1\obj\Debug\netcoreapp3.1\DesafioCapgemini_Q1.AssemblyInfo.cs
+C:\Users\Aparecida Joana\source\repos\DesafioCapgemini_Q1\DesafioCapgemini_Q1\obj\Debug\netcoreapp3.1\DesafioCapgemini_Q1.csproj.CoreCompileInputs.cache
+C:\Users\Aparecida Joana\source\repos\DesafioCapgemini_Q1\DesafioCapgemini_Q1\obj\Debug\netcoreapp3.1\DesafioCapgemini_Q1.dll
+C:\Users\Aparecida Joana\source\repos\DesafioCapgemini_Q1\DesafioCapgemini_Q1\obj\Debug\netcoreapp3.1\DesafioCapgemini_Q1.pdb
+C:\Users\Aparecida Joana\source\repos\DesafioCapgemini_Q1\DesafioCapgemini_Q1\obj\Debug\netcoreapp3.1\DesafioCapgemini_Q1.genruntimeconfig.cache

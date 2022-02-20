@@ -1,0 +1,14 @@
+C:\Users\Aparecida Joana\source\repos\AcademiaCapgemini_Q2\AcademiaCapgemini_Q2\bin\Debug\netcoreapp3.1\AcademiaCapgemini_Q2.exe
+C:\Users\Aparecida Joana\source\repos\AcademiaCapgemini_Q2\AcademiaCapgemini_Q2\bin\Debug\netcoreapp3.1\AcademiaCapgemini_Q2.deps.json
+C:\Users\Aparecida Joana\source\repos\AcademiaCapgemini_Q2\AcademiaCapgemini_Q2\bin\Debug\netcoreapp3.1\AcademiaCapgemini_Q2.runtimeconfig.json
+C:\Users\Aparecida Joana\source\repos\AcademiaCapgemini_Q2\AcademiaCapgemini_Q2\bin\Debug\netcoreapp3.1\AcademiaCapgemini_Q2.runtimeconfig.dev.json
+C:\Users\Aparecida Joana\source\repos\AcademiaCapgemini_Q2\AcademiaCapgemini_Q2\bin\Debug\netcoreapp3.1\AcademiaCapgemini_Q2.dll
+C:\Users\Aparecida Joana\source\repos\AcademiaCapgemini_Q2\AcademiaCapgemini_Q2\bin\Debug\netcoreapp3.1\AcademiaCapgemini_Q2.pdb
+C:\Users\Aparecida Joana\source\repos\AcademiaCapgemini_Q2\AcademiaCapgemini_Q2\obj\Debug\netcoreapp3.1\AcademiaCapgemini_Q2.csproj.AssemblyReference.cache
+C:\Users\Aparecida Joana\source\repos\AcademiaCapgemini_Q2\AcademiaCapgemini_Q2\obj\Debug\netcoreapp3.1\AcademiaCapgemini_Q2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aparecida Joana\source\repos\AcademiaCapgemini_Q2\AcademiaCapgemini_Q2\obj\Debug\netcoreapp3.1\AcademiaCapgemini_Q2.AssemblyInfoInputs.cache
+C:\Users\Aparecida Joana\source\repos\AcademiaCapgemini_Q2\AcademiaCapgemini_Q2\obj\Debug\netcoreapp3.1\AcademiaCapgemini_Q2.AssemblyInfo.cs
+C:\Users\Aparecida Joana\source\repos\AcademiaCapgemini_Q2\AcademiaCapgemini_Q2\obj\Debug\netcoreapp3.1\AcademiaCapgemini_Q2.csproj.CoreCompileInputs.cache
+C:\Users\Aparecida Joana\source\repos\AcademiaCapgemini_Q2\AcademiaCapgemini_Q2\obj\Debug\netcoreapp3.1\AcademiaCapgemini_Q2.dll
+C:\Users\Aparecida Joana\source\repos\AcademiaCapgemini_Q2\AcademiaCapgemini_Q2\obj\Debug\netcoreapp3.1\AcademiaCapgemini_Q2.pdb
+C:\Users\Aparecida Joana\source\repos\AcademiaCapgemini_Q2\AcademiaCapgemini_Q2\obj\Debug\netcoreapp3.1\AcademiaCapgemini_Q2.genruntimeconfig.cache
